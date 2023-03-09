@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* THEME 1 DARK */
+    --DMainBg: 222deg 26% 31%; /*(main background)*/
+    --DCalcBody: 223deg 31% 20%;
+    /* (toggle background, keypad background*/
+    --ScreenDark: 224deg 36% 15%; /*(screen background)*/
+
+    /* #### Keys */
+    --DKey: 225deg 21% 49%; /*(key background)*/
+    --DKeyShadow: 224deg 28% 35%; /*(key shadow)*/
+    --Red: 6deg 63% 50%; /*(key background, toggle)*/
+    --Dark-red: 6deg 70% 34%; /*(key shadow)*/
+    --Light-grayish-orange: 30deg 25% 89%; /*(key background)*/
+    --Grayish-orange: 28deg 16% 65%; /*(key shadow)*/
+
+    /* #### Text */
+    --Very-dark-grayish-blue: 221deg 14% 31%;
+
+    /* ### Theme 2 */
+
+    /* #### Backgrounds */
+    --LMainBg: 0deg 0% 90%; /*(main background)*/
+    --LCalcBody: 0 5% 81%; /*(toggle background, keypad background)*/
+    --ScreenLight: 0deg 0% 93%; /*(screen background)*/
+
+    /* #### Keys */
+    --LKey: 185deg 42% 37%; /*(key background)*/
+    --LKeyShadow: 185deg 58% 25%; /*(key shadow)*/
+    --Orange: 25deg 98% 40%; /*(key background, toggle)*/
+    --Dark-orange: 25deg 99% 27%; /*(key shadow)*/
+    --Light-grayish-yellow: 45deg 7% 89%; /*(key background)*/
+    --Dark-grayish-orange: 35deg 11% 61%; /*(key shadow)*/
+
+    /* #### Text */
+    --Very-dark-grayish-yellow: 60deg 10% 19%;
+
+    /* Typography */
+    --fSize: 32px;
+  }
+}
